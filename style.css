@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'FigTree';
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
 body{
     background-color: hsl(47, 88%, 63%);
     width: 100%;
@@ -6,16 +10,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'FigTree', sans-serif;
 }
 .container{
     background-color: white;
     border: 1px solid black;
-    width: 375px;
+    max-width: 340px;
     border-radius: 15px;
-    padding: 10px;
-    display: block;
+    padding: 20px;
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+    /* display: block;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .tag{
     background-color: hsl(47, 88%, 63%);
@@ -29,6 +35,7 @@ body{
 
 }
 .description{
+    color: hsl(0, 0%, 50%);
 
 }
 .footer{
